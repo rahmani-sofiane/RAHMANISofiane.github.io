@@ -1,0 +1,560 @@
+#centrage 
+{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.logo
+{
+    margin-bottom: 25px;
+}
+.navigation
+{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-size: medium;
+}
+.hebergement-ancre
+{
+    display: block;
+    flex-direction: row;
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+.hebergement-ancre:hover
+{
+    border-top: #0065FC solid 3px;
+    color:#0065FC;
+}
+.activite-ancre
+{
+    display: block;
+    flex-direction: row;
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: lighter; 
+}
+.activite-ancre:hover
+{
+    border-top: #0065FC solid 3px;
+    border-top: #0065FC solid 3px;
+    color:#0065FC;
+}
+.link-subscription
+{
+    display: block;
+    flex-direction: row;
+    padding-top: 20px; 
+    text-decoration: none;
+}
+.title-form
+{
+   font-size: large; 
+}
+.subtitle-form
+{
+    font-size: medium;
+    margin-top: 10px;
+}
+.form-search
+{
+    display: flex;
+    height: 3em;
+}
+.btn-left
+{
+    flex-direction: row;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: solid #F2F2F2 1px ;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-data
+{
+    display: block;
+    flex-direction: row;
+    width: 300px;
+    border: solid #F2F2F2 1px;
+    font-size: large;
+    align-items: flex-start;
+    padding-left: 20px;
+
+}
+.submit
+{
+    display: block;
+    flex-direction: row;
+    background-color: #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: solid #0065FC 1px ;
+    color: white;
+    width: 150px;
+    font-size: large;
+}
+.conteneur-filtre
+{
+    display: flex;
+    width: 1000px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.filtre-title1
+{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+.filtre
+{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    margin-right: 10px;
+    border: 2px solid #F2F2F2;
+    border-left: #0065FC;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.filtre:hover
+{
+    background-color: #0065FC;
+    font-style: bold;
+    color: white;
+    transform: scale(1.05);
+}
+.filtre-icone
+{
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    color: #0065FC;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+.filtre-title
+{
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+.info-logement
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.info-logement-icone
+{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #0065FC;
+    font-size: x-small;
+    border-radius: 100%;
+    border: solid 1px #F2F2F2;
+}
+.info-logement-text
+{
+    font-size: small;
+}
+.conteneur-content
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.hebergement
+{
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    border: solid #F2F2F2 3px ;
+    width: 750px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.text-hebergement
+{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.photo-hebergement
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 500px;
+}
+.populaire
+{
+    box-sizing: border-box;
+    margin-left: 40px;
+    padding: 20px;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    border: solid #F2F2F2 3px ;
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.text-top-populaire
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.photo-populaire
+{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-between;
+}
+.photo1
+{
+    border: white solid 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    width: 200px;
+    height: 175px;
+}
+.photo2
+{
+    border: white solid 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    width: 200px;
+    height: 175px;
+}
+.photo3
+{
+    border: white solid 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    width: 200px;
+    height: 175px;
+}
+.photo4
+{
+    border: white solid 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    width: 200px;
+    height: 175px;
+}
+.photo5
+{
+    border: white solid 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    width: 200px;
+    height: 175px;
+}
+.photo6
+{
+    border: white solid 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    width: 200px;
+    height: 175px;
+}
+.photo7
+{
+    border: white solid 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    width: 300px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.photo8
+{
+    border: white solid 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    width: 300px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.photo9
+{
+    border: white solid 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px grey;
+    width: 300px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.img-hebergement
+{
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+
+}
+.img-populaire
+{
+    align-self: flex-start;
+    width: 125px;
+    height: 125px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.hotel-name-hebergement
+{
+    font-size: medium;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 5px;
+    width: 200px;
+}
+.hotel-name-populaire
+{
+    font-size: medium;
+    font-weight: bold;
+    margin: 0;
+    width: 150px;
+}
+.price-hebergement
+{
+    font-size: small;
+    margin: 0;
+    margin-top: 5px; 
+}
+.price-populaire
+{
+    font-size: small;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.fa-star
+{
+    color: #0065FC;
+    font-size: 10px
+}
+.star-grey
+{
+    color: #F2F2F2;
+}
+.afficher-plus
+{
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.activite
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    border-radius: 10px;
+    height: 600px;
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.text-activite
+{
+    font-size: large;
+    font-weight: bold;
+    width: 1140px;
+    padding-bottom: 20px;
+
+}
+.activite-name
+{
+    padding-left: 15px;
+}
+.img-activite
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 550px;
+    width: 1140px;
+    justify-content: space-between;
+}
+.photo-port
+{
+    height: 550px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: medium;
+    box-shadow: 4px 4px 5px grey;
+}
+.photo-fort
+{
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: medium;
+    box-shadow: 4px 4px 5px grey;
+}
+.photo-ile
+{
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: medium;
+    box-shadow: 4px 4px 5px grey;
+}
+.photo-calanque
+{
+    height: 550px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: medium;
+    box-shadow: 4px 4px 5px grey;
+}
+.photo-notre-dame
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: medium;
+    box-shadow: 4px 4px 5px grey;
+}
+.photo-longchamp
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: medium;
+    box-shadow: 4px 4px 5px grey;
+}
+.img-xsmall
+{
+    height: 150px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.img-small
+{
+    height: 200px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.img-medium
+{
+    height: 250px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.img-large
+{
+    height: 500px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer
+{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.footer-left
+{
+    width: 30%;
+}
+.footer-middle
+{
+    width: 30%;
+}
+.footer-right
+{
+    width: 30%;
+}
+.footer-title
+{
+    font-weight: bold;
+}
+.footer-link
+{
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: small;
+}
