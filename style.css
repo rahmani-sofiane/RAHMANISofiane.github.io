@@ -1,8 +1,28 @@
 #centrage 
 {
+<<<<<<< Updated upstream
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
+=======
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+header
+{
+    display: flex;
+    margin: auto;
+    max-width: 990px;
+}
+.main
+{
+    max-width: 990px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 2em;
+    margin: auto;
+>>>>>>> Stashed changes
 }
 body
 {
@@ -44,6 +64,7 @@ body
     flex-direction: row;
     padding-top: 20px;
     text-decoration: none;
+<<<<<<< Updated upstream
     color: black;
     font-weight: lighter; 
 }
@@ -63,16 +84,74 @@ body
 .title-form
 {
    font-size: large; 
+=======
+    justify-self: center;
+    width: 10%;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px)
+/* Sur les écrans, quand la largeur de la fenêtre fait entre 576 px et 768px */
+{
+    header
+    {
+       display: flex;
+       flex-wrap: wrap;
+       align-items: flex-end;
+       box-sizing: border-box;
+    }
+    .bloc-logo
+    {
+        order: 1;
+        width: 50%;
+        margin-bottom: 0px;
+
+    }
+    .navigation
+    {
+        order: 3;
+        width: 100%;
+        display: flex;
+        margin-top: 2em;
+
+    }
+    .link-subscription
+    {
+        order: 2;
+        width: 50%;
+        align-self: center;
+        text-align: right;
+
+    }
+    .ancre
+    {
+        width: 50%;
+        text-align: center;
+        border-bottom: solid 3px #F2F2F2;
+        padding-bottom: 1em;
+        
+    }
+    .ancre:hover
+    {
+        border-top: none;
+        border-bottom: #0065FC solid 3px;
+        color:#0065FC;
+    }
+}
+.title-form
+{
+   font-size: 1.5em; 
+   padding-top: 1em;
+>>>>>>> Stashed changes
 }
 .subtitle-form
 {
-    font-size: medium;
     margin-top: 10px;
 }
 .form-search
 {
     display: flex;
     height: 3em;
+    margin-top: 2em;
 }
 .btn-left
 {
@@ -92,9 +171,15 @@ body
     flex-direction: row;
     width: 300px;
     border: solid #F2F2F2 1px;
-    font-size: large;
     align-items: flex-start;
+<<<<<<< Updated upstream
     padding-left: 20px;
+=======
+    padding-left: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+>>>>>>> Stashed changes
 
 }
 .submit
@@ -106,8 +191,13 @@ body
     border-bottom-right-radius: 15px;
     border: solid #0065FC 1px ;
     color: white;
+<<<<<<< Updated upstream
     width: 150px;
     font-size: large;
+=======
+    width: 8em;
+    font-size: 1em;
+>>>>>>> Stashed changes
 }
 .conteneur-filtre
 {
@@ -150,7 +240,6 @@ body
     height: 50px;
     display: flex;
     color: #0065FC;
-    font-size: large;
     justify-content: center;
     align-items: center;
 }
@@ -164,7 +253,11 @@ body
 {
     display: flex;
     align-items: center;
+<<<<<<< Updated upstream
     margin-bottom: 20px;
+=======
+    margin-top: 1em;
+>>>>>>> Stashed changes
 }
 .info-logement-icone
 {
@@ -176,20 +269,21 @@ body
     justify-content: center;
     margin-right: 10px;
     color: #0065FC;
-    font-size: x-small;
     border-radius: 100%;
     border: solid 1px #F2F2F2;
-}
-.info-logement-text
-{
-    font-size: small;
+    font-size: x-small;
 }
 .conteneur-content
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+<<<<<<< Updated upstream
 
+=======
+    row-gap: 2em;
+    max-width: 990px;
+>>>>>>> Stashed changes
 }
 .hebergement
 {
@@ -202,10 +296,16 @@ body
     height: 600px;
     display: flex;
     flex-direction: column;
+<<<<<<< Updated upstream
+=======
+    width: 650px;
+    height: 100%;
+    row-gap: 2em;
+>>>>>>> Stashed changes
 }
 .text-hebergement
 {
-    font-size: large;
+    font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -231,13 +331,21 @@ body
     height: 600px;
     display: flex;
     flex-direction: column;
+<<<<<<< Updated upstream
+=======
+    row-gap: 2em;
+    width: 300px;
+    height: 100%;
+    margin-bottom: 2px;
+    margin-left: 20px ;
+>>>>>>> Stashed changes
 }
 .text-top-populaire
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: large;
+    font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -255,9 +363,15 @@ body
     border: white solid 5px;
     background-color: white;
     border-radius: 10px;
+<<<<<<< Updated upstream
     box-shadow: 4px 4px 5px grey;
     width: 200px;
     height: 175px;
+=======
+    box-shadow: 0px 5px 10px rgb( 220,220,220);
+    width: 30%;
+    box-sizing: border-box;
+>>>>>>> Stashed changes
 }
 .photo2
 {
@@ -291,6 +405,7 @@ body
     border: white solid 5px;
     background-color: white;
     border-radius: 10px;
+<<<<<<< Updated upstream
     box-shadow: 4px 4px 5px grey;
     width: 200px;
     height: 175px;
@@ -339,6 +454,19 @@ body
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+=======
+    box-shadow: 0px 5px 10px rgb( 220,220,220) ;
+    width: 100%;
+    box-sizing: border-box;
+
+>>>>>>> Stashed changes
+}
+.container-photo-populaire
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 8em;
 }
 .img-hebergement
 {
@@ -357,11 +485,27 @@ body
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     object-fit: cover;
+<<<<<<< Updated upstream
     margin-right: 10px;
+=======
+    width: 40%;
+    height: 100%;
+}
+.legende-hebergement
+{
+    color: black;
+}
+.legende-populaire
+{
+    width: 60%;
+    padding-left: 1em;
+    box-sizing: border-box;
+    color: black;
+    padding-top: 1em;
+>>>>>>> Stashed changes
 }
 .hotel-name-hebergement
 {
-    font-size: medium;
     font-weight: bold;
     margin: 0;
     margin-top: 5px;
@@ -399,9 +543,13 @@ body
 .afficher-plus
 {
     font-weight: bold;
+<<<<<<< Updated upstream
     font-size: medium;
     margin-top: 20px;
     margin-bottom: 20px;
+=======
+    margin-bottom: 1em;
+>>>>>>> Stashed changes
 }
 .activite
 {
@@ -409,19 +557,30 @@ body
     padding-bottom: 40px;
     background-color: white;
     border-radius: 10px;
+<<<<<<< Updated upstream
     height: 600px;
     width: 1140px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+=======
+    width: 990px;
+    row-gap: 2em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+>>>>>>> Stashed changes
 }
 .text-activite
 {
-    font-size: large;
+    font-size: 1.5em;
     font-weight: bold;
+<<<<<<< Updated upstream
     width: 1140px;
     padding-bottom: 20px;
 
+=======
+>>>>>>> Stashed changes
 }
 .activite-name
 {
@@ -429,9 +588,13 @@ body
 }
 .img-activite
 {
+    margin-bottom: 2em;
+    row-gap: 2em;
+    column-gap: 1em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+<<<<<<< Updated upstream
     height: 550px;
     width: 1140px;
     justify-content: space-between;
@@ -483,31 +646,99 @@ body
     border-radius: 10px;
     font-size: medium;
     box-shadow: 4px 4px 5px grey;
+=======
+    height: 28em;
+}
+.bloc-photo-activite
+{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.activite-name
+{
+    padding-left: 15px;
+    color: black;
+    align-items: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 5px 10px rgb( 220,220,220);
+    font-weight: bold;
+    height: 2em;
+    margin-block-end: 0em;
+}
+.photo-activite
+{
+    width: calc(25% - 1em)
+>>>>>>> Stashed changes
 }
 .img-xsmall
 {
+<<<<<<< Updated upstream
     height: 150px;
     width: 250px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+=======
+    height: 25em;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.img-fort
+{
+    height: 14em;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.img-ile
+{
+    height: 6em;
+    width: 100%;
+>>>>>>> Stashed changes
     object-fit: cover;
 }
 .img-small
 {
+<<<<<<< Updated upstream
     height: 200px;
     width: 250px;
     border-top-left-radius: 10px;
+=======
+    height: 25em;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.img-notre-dame
+{
+    height: 10em;
+    width: 100%;
+    object-fit: cover;
+>>>>>>> Stashed changes
     border-top-right-radius: 10px;
     object-fit: cover;
 }
 .img-medium
 {
+<<<<<<< Updated upstream
     height: 250px;
     width: 250px;
+=======
+    height: 10em;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+>>>>>>> Stashed changes
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     object-fit: cover;
 }
+<<<<<<< Updated upstream
 .img-large
 {
     height: 500px;
@@ -515,6 +746,157 @@ body
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     object-fit: cover;
+=======
+@media screen and (max-width: 992px)
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 992px */
+{
+    body
+    {
+        margin: auto;
+    }
+    header
+    {
+        margin: 1em;
+    }
+    .container-accueil
+    {
+        margin: 1em;
+    }
+    .hebergement
+    {
+        margin: 1em;
+    }
+    .populaire
+    {
+        border-radius: 0px;
+    }
+    .activite
+    {
+        margin: 1em;
+    }
+    .conteneur-filtre
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .filtre-title1
+    {
+        width: 100%;
+        padding-bottom: 1em;
+    }
+    .container-content
+    {
+        width: 100%;
+    }   
+    .hebergement
+    {
+        order: 2;
+        width: 100%;
+    }
+    .photo-hebergement
+    {
+        width: 45%;
+    }
+    .populaire
+    {
+        order: 1;
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .container-populaire
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .img-populaire
+    {
+        min-width: 20em;
+    }
+    .price-populaire
+    {
+        margin-bottom: 0px;
+    }
+    .container-activite
+    {
+        margin-bottom: 2em;
+        height: 100%;
+    }
+    .activite
+    {
+        order: 3;
+    }
+    .photo-activite
+    {
+        width: 100%;
+    }
+    .img-port
+    {
+        height: 15em;
+    }
+    .img-fort
+    {
+        height: 15em;
+    }
+    .img-ile
+    {
+        height: 15em;
+    }
+    .img-calanque
+    {
+        height: 15em;
+    }
+    .img-notre-dame
+    {
+        height: 15em;
+    }
+    .img-longchamp
+    {
+        height: 15em;
+    }
+}
+@media screen and (max-width: 768px)
+/* Sur les écrans, quand la largeur de la fenêtre fait entre 576 px et 768px */
+{
+    .filtre
+    {
+        margin-bottom: 1em;
+    }
+    .hebergement
+    {
+        border: none;
+        background-color: white;
+        padding: 0em;
+    }
+    .photo-hebergement
+    {
+        width: 100%;
+    }
+
+    .img-hebergement
+    {
+        min-height: 15em;
+    }
+    .img-populaire
+    {
+        min-width: 10em;
+    }
+    .hotel-name-populaire
+    {
+        max-width: 10em;
+    }
+    .footer
+    {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-column
+    {
+        width: 100%;
+    }
+>>>>>>> Stashed changes
 }
 footer
 {
@@ -529,6 +911,7 @@ footer
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+<<<<<<< Updated upstream
     width: 1140px;
     margin: auto;
     box-sizing: border-box;
@@ -540,10 +923,12 @@ footer
 .footer-middle
 {
     width: 30%;
+=======
+>>>>>>> Stashed changes
 }
 .footer-right
 {
-    width: 30%;
+    width: 33%;
 }
 .footer-title
 {
@@ -557,4 +942,15 @@ footer
     padding-bottom: 10px;
     color: black;
     font-size: small;
+}
+@media (max-width: 576px)
+{
+    .footer
+    {
+        flex-direction: column;
+    }
+    .footer-column
+    {
+        width: 100%;
+    }
 }
