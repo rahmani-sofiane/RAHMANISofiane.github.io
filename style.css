@@ -61,7 +61,6 @@ a
     font-weight: bold;
 }
 @media screen and (max-width: 768px)
-/* Sur les écrans, quand la largeur de la fenêtre fait entre 576 px et 768px */
 {
     header
     {
@@ -137,7 +136,6 @@ a
 }
 .search-data
 {
-    display: block;
     width: 12em;
     border: solid #F2F2F2 1px;
     align-items: flex-start;
@@ -149,7 +147,6 @@ a
 }
 .submit
 {
-    display: block;
     background-color: #0065FC;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
